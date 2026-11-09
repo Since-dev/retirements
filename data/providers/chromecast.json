@@ -1,0 +1,3 @@
+[
+{"id":"ef10326f-14a6-4d80-a70b-9a4f0aba16b0","kind":"runtime","category":"software","event":"end_of_life","provider":"chromecast","providerName":"Google Chromecast","name":"Google Chromecast","modelId":null,"platform":null,"platformName":null,"version":"chromecast-1","symbol":null,"title":"Google Chromecast chromecast-1: end of life 2023-05-31","summary":null,"date":"2023-05-31","dateKind":"eol","dates":[{"date":"2023-05-31","kind":"eol"}],"severity":"high","replacement":null,"source":{"url":"https://endoflife.date/chromecast","license":"MIT"},"announcedAt":"2023-05-31T00:00:00Z","updatedAt":"2026-10-26T17:52:54Z","url":"https://since.dev/calendar/chromecast/chromecast-1"}
+]

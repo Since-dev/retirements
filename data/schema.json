@@ -1,0 +1,169 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "A dated retirement, shutdown or end of life",
+  "type": "object",
+  "required": [
+    "id",
+    "kind",
+    "category",
+    "event",
+    "provider",
+    "providerName",
+    "name",
+    "date",
+    "dateKind",
+    "dates",
+    "severity",
+    "title",
+    "announcedAt",
+    "updatedAt",
+    "url"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable while the source keeps reporting the change."
+    },
+    "kind": {
+      "enum": [
+        "model",
+        "api",
+        "runtime"
+      ],
+      "description": "An AI model, a provider API, or a runtime or other software."
+    },
+    "category": {
+      "type": "string",
+      "description": "Finer than kind: model, api, runtime, language, framework, database, infrastructure, os or software."
+    },
+    "event": {
+      "type": "string",
+      "description": "What happens on the date: retirement, deprecation, removal, end of life and so on."
+    },
+    "provider": {
+      "type": "string",
+      "description": "The group it is listed under, such as openai, anthropic or nodejs."
+    },
+    "providerName": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string",
+      "description": "The model, API or runtime as people write it."
+    },
+    "modelId": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "The exact id a model goes by in its provider's API."
+    },
+    "platform": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "The cloud the dates apply to (bedrock, vertex, azure), or null for the provider's own API."
+    },
+    "platformName": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "version": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "A runtime's release line, such as 18."
+    },
+    "symbol": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "The part of an API that goes, such as a request parameter."
+    },
+    "title": {
+      "type": "string"
+    },
+    "summary": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "The date that governs, UTC."
+    },
+    "dateKind": {
+      "enum": [
+        "hard",
+        "eol",
+        "not_before"
+      ],
+      "description": "not_before: the provider only promised no sooner than this date."
+    },
+    "dates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "date",
+          "kind"
+        ],
+        "properties": {
+          "date": {
+            "type": "string"
+          },
+          "kind": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "severity": {
+      "type": "string"
+    },
+    "replacement": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "What the source names as the replacement."
+    },
+    "source": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "url": {
+          "type": "string"
+        },
+        "license": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "announcedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When this entry's facts last changed."
+    },
+    "url": {
+      "type": "string",
+      "description": "The date's page on since.dev."
+    }
+  }
+}

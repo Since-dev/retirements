@@ -1,0 +1,3 @@
+[
+{"id":"76edff22-5e00-4e7d-a3d7-768c3f6750a7","kind":"runtime","category":"software","event":"end_of_life","provider":"teleport","providerName":"Teleport","name":"Teleport","modelId":null,"platform":null,"platformName":null,"version":"16","symbol":null,"title":"Teleport 16: end of life 2025-10-31","summary":null,"date":"2025-10-31","dateKind":"eol","dates":[{"date":"2024-11-15","kind":"end_active"},{"date":"2025-10-31","kind":"eol"}],"severity":"high","replacement":null,"source":{"url":"https://endoflife.date/teleport","license":"MIT"},"announcedAt":"2025-10-31T00:00:00Z","updatedAt":"2026-10-26T17:53:02Z","url":"https://since.dev/calendar/teleport/16"}
+]

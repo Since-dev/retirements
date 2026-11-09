@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it as below."
+title: "AI model, API and runtime retirement dates"
+type: dataset
+authors:
+  - name: "Since.dev"
+    website: "https://since.dev"
+repository-code: "https://github.com/Since-dev/retirements"
+url: "https://since.dev/calendar"
+license: CC-BY-4.0
+date-released: "2026-11-09"
+keywords:
+  - ai-models
+  - model-deprecation
+  - end-of-life
+  - api-deprecation
+  - breaking-changes
