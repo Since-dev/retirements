@@ -125,6 +125,16 @@
         }
       }
     },
+    "regions": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string"
+      },
+      "description": "The only regions the date is given for (Amazon Bedrock lists dates per region), or null when it is not scoped. In the CSV, separated by spaces."
+    },
     "severity": {
       "type": "string"
     },

@@ -2,7 +2,7 @@
 
 Every dated AI model retirement, provider API removal and runtime end of life that [Since.dev](https://since.dev) tracks, with the replacement where there is one and the source that states it. Updated daily.
 
-As of Nov 9, 2026: 8,737 dates across 494 providers, 577 for AI models, 56 for provider APIs and 8,104 for runtimes and other software.
+As of Nov 10, 2026: 8,742 dates across 494 providers, 582 for AI models, 56 for provider APIs and 8,104 for runtimes and other software.
 
 A model often retires on different dates on different platforms (the provider's own API, Azure, Amazon Bedrock, Google Vertex AI), so each platform's date is its own entry.
 
@@ -11,10 +11,10 @@ A model often retires on different dates on different platforms (the provider's 
 | Date | What | Replacement |
 | --- | --- | --- |
 | Nov 13, 2026 | [GitHub REST API: GET /repos/{owner}/{repo}/dependency-graph/sbom is deprecated, removal on 2026-11-13](https://since.dev/calendar/github/api.github.com/get-repos-owner-repo-dependency-graph-sbom) |  |
-| Nov 13, 2026 | [anthropic.claude-3-5-sonnet-20240620-v1:0 on Amazon Bedrock: retirement 2026-11-13](https://since.dev/calendar/anthropic/anthropic.claude-3-5-sonnet-20240620-v1-0/bedrock) |  |
-| Nov 13, 2026 | [anthropic.claude-3-7-sonnet-20250219-v1:0 on Amazon Bedrock: retirement 2026-11-13](https://since.dev/calendar/anthropic/anthropic.claude-3-7-sonnet-20250219-v1-0/bedrock) |  |
-| Nov 13, 2026 | [anthropic.claude-3-sonnet-20240229-v1:0 on Amazon Bedrock: retirement 2026-11-13](https://since.dev/calendar/anthropic/anthropic.claude-3-sonnet-20240229-v1-0/bedrock) |  |
-| Nov 13, 2026 | [anthropic.claude-3-5-sonnet-20241022-v2:0 on Amazon Bedrock: retirement 2026-11-13](https://since.dev/calendar/anthropic/anthropic.claude-3-5-sonnet-20241022-v2-0/bedrock) |  |
+| Nov 13, 2026 | [anthropic.claude-3-5-sonnet-20240620-v1:0 on Amazon Bedrock: retirement 2026-11-13 in ap-northeast-2, ap-south-1 and ap-southeast-1](https://since.dev/calendar/anthropic/anthropic.claude-3-5-sonnet-20240620-v1-0/bedrock) |  |
+| Nov 13, 2026 | [anthropic.claude-3-7-sonnet-20250219-v1:0 on Amazon Bedrock: retirement 2026-11-13 in ap-south-1 and eu-west-2](https://since.dev/calendar/anthropic/anthropic.claude-3-7-sonnet-20250219-v1-0/bedrock) |  |
+| Nov 13, 2026 | [anthropic.claude-3-sonnet-20240229-v1:0 on Amazon Bedrock: retirement 2026-11-13 in 4 regions](https://since.dev/calendar/anthropic/anthropic.claude-3-sonnet-20240229-v1-0/bedrock) |  |
+| Nov 13, 2026 | [anthropic.claude-3-5-sonnet-20241022-v2:0 on Amazon Bedrock: retirement 2026-11-13 in ap-northeast-2, ap-south-1 and ap-southeast-1](https://since.dev/calendar/anthropic/anthropic.claude-3-5-sonnet-20241022-v2-0/bedrock) |  |
 | Nov 15, 2026 | [codex-mini-2025-05-16 on Microsoft Foundry: retirement 2026-11-15](https://since.dev/calendar/openai/codex-mini-2025-05-16/azure) |  |
 | Nov 15, 2026 | [claude-haiku-4-5 on Microsoft Foundry: retirement 2026-11-15](https://since.dev/calendar/anthropic/claude-haiku-4-5/azure) |  |
 | Nov 17, 2026 | [gemini-2.5-flash-native-audio-preview-12-2025 on Gemini API: retirement no sooner than 2026-11-17](https://since.dev/calendar/google/gemini-2.5-flash-native-audio-preview-12-2025/gemini) | `gemini-3.8-live` |
@@ -34,8 +34,8 @@ A model often retires on different dates on different platforms (the provider's 
 | Nov 19, 2026 | [o3-mini-2025-01-31 on Microsoft Foundry: retirement 2026-11-19](https://since.dev/calendar/openai/o3-mini-2025-01-31/azure) | `gpt-5.6-terra` |
 | Nov 19, 2026 | [o3-2025-04-16 on Microsoft Foundry: retirement 2026-11-19](https://since.dev/calendar/openai/o3-2025-04-16/azure) | `gpt-5.6-sol` |
 | Nov 24, 2026 | [claude-opus-4-5 on Microsoft Foundry: retirement 2026-11-24](https://since.dev/calendar/anthropic/claude-opus-4-5/azure) |  |
-| Nov 26, 2026 | [ai21.jamba-1-5-mini-v1:0 on Amazon Bedrock: retirement 2026-11-26](https://since.dev/calendar/ai21/ai21.jamba-1-5-mini-v1-0/bedrock) |  |
-| Nov 26, 2026 | [ai21.jamba-1-5-large-v1:0 on Amazon Bedrock: retirement 2026-11-26](https://since.dev/calendar/ai21/ai21.jamba-1-5-large-v1-0/bedrock) |  |
+| Nov 26, 2026 | [ai21.jamba-1-5-mini-v1:0 on Amazon Bedrock: retirement 2026-11-26 in us-east-1](https://since.dev/calendar/ai21/ai21.jamba-1-5-mini-v1-0/bedrock) |  |
+| Nov 26, 2026 | [ai21.jamba-1-5-large-v1:0 on Amazon Bedrock: retirement 2026-11-26 in us-east-1](https://since.dev/calendar/ai21/ai21.jamba-1-5-large-v1-0/bedrock) |  |
 | Nov 30, 2026 | [Evals dashboard and API is removed on 2026-11-30](https://since.dev/calendar/openai/api.openai.com/evals-dashboard-and-api) |  |
 | Nov 30, 2026 | [claude-sonnet-4-5 on Vertex AI: retirement no sooner than 2026-11-30](https://since.dev/calendar/anthropic/claude-sonnet-4-5/vertex) |  |
 | Nov 30, 2026 | [Agent Builder is removed on 2026-11-30](https://since.dev/calendar/openai/api.openai.com/agent-builder) | `Agents SDK or ChatGPT Workspace Agents` |
@@ -66,7 +66,7 @@ Each JSON file is an array with one entry per line.
 - For any public GitHub repository, a scan shows which of these dates its code hits: [since.dev/scan](https://since.dev/scan)
 
 ```sh
-curl -s https://raw.githubusercontent.com/Since-dev/retirements/main/data/models.json | jq '.[] | select(.provider == "openai" and .date >= "2026-11-09") | {modelId, date, replacement}'
+curl -s https://raw.githubusercontent.com/Since-dev/retirements/main/data/models.json | jq '.[] | select(.provider == "openai" and .date >= "2026-11-10") | {modelId, date, replacement}'
 ```
 
 ## License
