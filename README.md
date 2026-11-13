@@ -2,7 +2,7 @@
 
 Every dated AI model retirement, provider API removal and runtime end of life that [Since.dev](https://since.dev) tracks, with the replacement where there is one and the source that states it. Updated daily.
 
-As of Nov 12, 2026: 8,748 dates across 494 providers, 584 for AI models, 56 for provider APIs and 8,108 for runtimes and other software.
+As of Nov 13, 2026: 8,750 dates across 494 providers, 584 for AI models, 56 for provider APIs and 8,110 for runtimes and other software.
 
 A model often retires on different dates on different platforms (the provider's own API, Azure, Amazon Bedrock, Google Vertex AI), so each platform's date is its own entry.
 
@@ -66,7 +66,7 @@ Each JSON file is an array with one entry per line.
 - For any public GitHub repository, a scan shows which of these dates its code hits: [since.dev/scan](https://since.dev/scan)
 
 ```sh
-curl -s https://raw.githubusercontent.com/Since-dev/retirements/main/data/models.json | jq '.[] | select(.provider == "openai" and .date >= "2026-11-12") | {modelId, date, replacement}'
+curl -s https://raw.githubusercontent.com/Since-dev/retirements/main/data/models.json | jq '.[] | select(.provider == "openai" and .date >= "2026-11-13") | {modelId, date, replacement}'
 ```
 
 ## License
