@@ -2,7 +2,7 @@
 
 Every dated AI model retirement, provider API removal and runtime end of life that [Since.dev](https://since.dev) tracks, with the replacement where there is one and the source that states it. Updated daily.
 
-As of Nov 17, 2026: 8,754 dates across 494 providers, 583 for AI models, 57 for provider APIs and 8,114 for runtimes and other software.
+As of Nov 18, 2026: 8,786 dates across 494 providers, 583 for AI models, 57 for provider APIs and 8,146 for runtimes and other software.
 
 A model often retires on different dates on different platforms (the provider's own API, Azure, Amazon Bedrock, Google Vertex AI), so each platform's date is its own entry.
 
@@ -10,8 +10,6 @@ A model often retires on different dates on different platforms (the provider's 
 
 | Date | What | Replacement |
 | --- | --- | --- |
-| Nov 17, 2026 | [gpt-chat-latest-2026-05-05 on Microsoft Foundry: retirement 2026-11-17](https://since.dev/calendar/openai/gpt-chat-latest-2026-05-05/azure) |  |
-| Nov 17, 2026 | [gpt-chat-latest-2026-06-24 on Microsoft Foundry: retirement 2026-11-17](https://since.dev/calendar/openai/gpt-chat-latest-2026-06-24/azure) |  |
 | Nov 19, 2026 | [o3-deep-research-2025-06-26 on Microsoft Foundry: retirement 2026-11-19](https://since.dev/calendar/openai/o3-deep-research-2025-06-26/azure) | `gpt-5.6-sol` |
 | Nov 19, 2026 | [o1-2024-12-17 on Microsoft Foundry: retirement 2026-11-19](https://since.dev/calendar/openai/o1-2024-12-17/azure) | `gpt-5.6-sol` |
 | Nov 19, 2026 | [o4-mini-2025-04-16 on Microsoft Foundry: retirement 2026-11-19](https://since.dev/calendar/openai/o4-mini-2025-04-16/azure) | `gpt-5.6-terra` |
@@ -40,6 +38,8 @@ A model often retires on different dates on different platforms (the provider's 
 | Dec 3, 2026 | [DeepSeek-V4-Flash-0731-2026-07-31 on Microsoft Foundry: retirement 2026-12-03](https://since.dev/calendar/deepseek/deepseek-v4-flash-0731-2026-07-31/azure) |  |
 | Dec 3, 2026 | [gemini-omni-1.1-flash on Gemini API: requests routed to gemini-omni-1.2-flash from 2026-12-03](https://since.dev/calendar/google/gemini-omni-1.1-flash/gemini) | `gemini-omni-1.2-flash` |
 | Dec 8, 2026 | [gpt-chat-latest-2026-05-28 on Microsoft Foundry: retirement 2026-12-08](https://since.dev/calendar/openai/gpt-chat-latest-2026-05-28/azure) |  |
+| Dec 9, 2026 | [mistral-medium-2505 on Microsoft Foundry: retirement 2026-12-09](https://since.dev/calendar/mistral/mistral-medium-2505/azure) | `mistral-medium-3-5` |
+| Dec 9, 2026 | [Ministral-3B on Microsoft Foundry: retirement 2026-12-09](https://since.dev/calendar/mistral/ministral-3b/azure) | `ministral-ministral-4b-instruct` |
 
 The full list, with a page for every date: [since.dev/calendar](https://since.dev/calendar).
 
@@ -66,7 +66,7 @@ Each JSON file is an array with one entry per line.
 - For any public GitHub repository, a scan shows which of these dates its code hits: [since.dev/scan](https://since.dev/scan)
 
 ```sh
-curl -s https://raw.githubusercontent.com/Since-dev/retirements/main/data/models.json | jq '.[] | select(.provider == "openai" and .date >= "2026-11-17") | {modelId, date, replacement}'
+curl -s https://raw.githubusercontent.com/Since-dev/retirements/main/data/models.json | jq '.[] | select(.provider == "openai" and .date >= "2026-11-18") | {modelId, date, replacement}'
 ```
 
 ## License
