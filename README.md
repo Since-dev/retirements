@@ -2,7 +2,7 @@
 
 Every dated AI model retirement, provider API removal and runtime end of life that [Since.dev](https://since.dev) tracks, with the replacement where there is one and the source that states it. Updated daily.
 
-As of Nov 19, 2026: 8,993 dates across 528 providers, 583 for AI models, 61 for provider APIs and 8,349 for runtimes and other software.
+As of Nov 20, 2026: 9,042 dates across 528 providers, 610 for AI models, 62 for provider APIs and 8,370 for runtimes and other software.
 
 A model often retires on different dates on different platforms (the provider's own API, Azure, Amazon Bedrock, Google Vertex AI), so each platform's date is its own entry.
 
@@ -10,15 +10,9 @@ A model often retires on different dates on different platforms (the provider's 
 
 | Date | What | Replacement |
 | --- | --- | --- |
-| Nov 19, 2026 | [o3-deep-research-2025-06-26 on Microsoft Foundry: retirement 2026-11-19](https://since.dev/calendar/openai/o3-deep-research-2025-06-26/azure) | `gpt-5.6-sol4` |
-| Nov 19, 2026 | [o1-2024-12-17 on Microsoft Foundry: retirement 2026-11-19](https://since.dev/calendar/openai/o1-2024-12-17/azure) | `gpt-5.6-sol4` |
-| Nov 19, 2026 | [o4-mini-2025-04-16 on Microsoft Foundry: retirement 2026-11-19](https://since.dev/calendar/openai/o4-mini-2025-04-16/azure) | `gpt-5.6-terra4` |
-| Nov 19, 2026 | [Llama-4-Maverick-17B-128E-Instruct-FP8 on Microsoft Foundry: retirement 2026-11-19](https://since.dev/calendar/meta/llama-4-maverick-17b-128e-instruct-fp8/azure) |  |
-| Nov 19, 2026 | [o1-pro-2025-03-19 on Microsoft Foundry: retirement 2026-11-19](https://since.dev/calendar/openai/o1-pro-2025-03-19/azure) | `gpt-5.6-sol4` |
-| Nov 19, 2026 | [o3-pro-2025-06-10 on Microsoft Foundry: retirement 2026-11-19](https://since.dev/calendar/openai/o3-pro-2025-06-10/azure) | `gpt-5.6-sol4` |
-| Nov 19, 2026 | [gemini-3.6-flash on Vertex AI: retirement no sooner than 2026-11-19](https://since.dev/calendar/google/gemini-3.6-flash/vertex) | `gemini-3.8-flash` |
-| Nov 19, 2026 | [o3-mini-2025-01-31 on Microsoft Foundry: retirement 2026-11-19](https://since.dev/calendar/openai/o3-mini-2025-01-31/azure) | `gpt-5.6-terra4` |
-| Nov 19, 2026 | [o3-2025-04-16 on Microsoft Foundry: retirement 2026-11-19](https://since.dev/calendar/openai/o3-2025-04-16/azure) | `gpt-5.6-sol4` |
+| Nov 24, 2026 | [MAI-Image-2.5-Flash-2026-06-02 on Microsoft Foundry: retirement 2026-11-24](https://since.dev/calendar/microsoft/mai-image-2.5-flash-2026-06-02/azure) |  |
+| Nov 24, 2026 | [MAI-Image-2.5-Pro-2026-06-19 on Microsoft Foundry: retirement 2026-11-24](https://since.dev/calendar/microsoft/mai-image-2.5-pro-2026-06-19/azure) |  |
+| Nov 24, 2026 | [MAI-Image-2.5-2026-06-02 on Microsoft Foundry: retirement 2026-11-24](https://since.dev/calendar/microsoft/mai-image-2.5-2026-06-02/azure) |  |
 | Nov 26, 2026 | [ai21.jamba-1-5-mini-v1:0 on Amazon Bedrock: retirement 2026-11-26 in us-east-1](https://since.dev/calendar/ai21/ai21.jamba-1-5-mini-v1-0/bedrock) |  |
 | Nov 26, 2026 | [ai21.jamba-1-5-large-v1:0 on Amazon Bedrock: retirement 2026-11-26 in us-east-1](https://since.dev/calendar/ai21/ai21.jamba-1-5-large-v1-0/bedrock) |  |
 | Nov 30, 2026 | [Evals dashboard and API is removed on 2026-11-30](https://since.dev/calendar/openai/api.openai.com/evals-dashboard-and-api) |  |
@@ -37,9 +31,15 @@ A model often retires on different dates on different platforms (the provider's 
 | Dec 1, 2026 | [gpt-image-1-mini on OpenAI API: retirement 2026-12-01](https://since.dev/calendar/openai/gpt-image-1-mini) | `gpt-image-2.6-sunburst or gpt-image-2.6-flare` |
 | Dec 3, 2026 | [DeepSeek-V4-Flash-0731-2026-07-31 on Microsoft Foundry: retirement 2026-12-03](https://since.dev/calendar/deepseek/deepseek-v4-flash-0731-2026-07-31/azure) |  |
 | Dec 3, 2026 | [gemini-omni-1.1-flash on Gemini API: requests routed to gemini-omni-1.2-flash from 2026-12-03](https://since.dev/calendar/google/gemini-omni-1.1-flash/gemini) | `gemini-omni-1.2-flash` |
+| Dec 4, 2026 | [MAI-Transcribe-2-Streaming-2026-08-06 on Microsoft Foundry: retirement 2026-12-04](https://since.dev/calendar/microsoft/mai-transcribe-2-streaming-2026-08-06/azure) |  |
 | Dec 8, 2026 | [gpt-chat-latest-2026-05-28 on Microsoft Foundry: retirement 2026-12-08](https://since.dev/calendar/openai/gpt-chat-latest-2026-05-28/azure) |  |
 | Dec 9, 2026 | [mistral-medium-2505 on Microsoft Foundry: retirement 2026-12-09](https://since.dev/calendar/mistral/mistral-medium-2505/azure) | `mistral-medium-3-5` |
 | Dec 9, 2026 | [Ministral-3B on Microsoft Foundry: retirement 2026-12-09](https://since.dev/calendar/mistral/ministral-3b/azure) | `ministral-ministral-4b-instruct` |
+| Dec 11, 2026 | [gpt-5-2025-08-07 on OpenAI API: retirement 2026-12-11](https://since.dev/calendar/openai/gpt-5-2025-08-07) | `gpt-6.1-sol` |
+| Dec 11, 2026 | [gpt-5-pro-2025-10-06 on OpenAI API: retirement 2026-12-11](https://since.dev/calendar/openai/gpt-5-pro-2025-10-06) | `gpt-6.1-sol (reasoning.mode: pro) in the Responses API` |
+| Dec 11, 2026 | [gpt-5-mini-2025-08-07 on OpenAI API: retirement 2026-12-11](https://since.dev/calendar/openai/gpt-5-mini-2025-08-07) | `gpt-6.1-terra` |
+| Dec 11, 2026 | [gpt-5-mini on OpenAI API: retirement 2026-12-11](https://since.dev/calendar/openai/gpt-5-mini) | `gpt-6.1-terra` |
+| Dec 11, 2026 | [gpt-5 on OpenAI API: retirement 2026-12-11](https://since.dev/calendar/openai/gpt-5) | `gpt-6.1-sol` |
 
 The full list, with a page for every date: [since.dev/calendar](https://since.dev/calendar).
 
@@ -66,7 +66,7 @@ Each JSON file is an array with one entry per line.
 - For any public GitHub repository, a scan shows which of these dates its code hits: [since.dev/scan](https://since.dev/scan)
 
 ```sh
-curl -s https://raw.githubusercontent.com/Since-dev/retirements/main/data/models.json | jq '.[] | select(.provider == "openai" and .date >= "2026-11-19") | {modelId, date, replacement}'
+curl -s https://raw.githubusercontent.com/Since-dev/retirements/main/data/models.json | jq '.[] | select(.provider == "openai" and .date >= "2026-11-20") | {modelId, date, replacement}'
 ```
 
 ## License
