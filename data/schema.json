@@ -34,7 +34,7 @@
     },
     "category": {
       "type": "string",
-      "description": "Finer than kind: model, api, runtime, language, framework, database, infrastructure, os or software."
+      "description": "Finer than kind: model, api, runtime, language, framework, database, infrastructure, os, device or software."
     },
     "event": {
       "type": "string",
@@ -174,6 +174,20 @@
     "url": {
       "type": "string",
       "description": "The date's page on since.dev."
+    },
+    "release": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "description": "A runtime release's facts: its name in full, release date, LTS, newest patch and every support phase under the product's own name. Null otherwise."
+    },
+    "upgradeTo": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "description": "The release to move to, with nearestSafe when a fix would move to another. Null when this is the newest."
     }
   }
 }
