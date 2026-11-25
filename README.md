@@ -2,7 +2,7 @@
 
 Every dated AI model retirement, provider API removal and runtime end of life that [Since.dev](https://since.dev) tracks, with the replacement where there is one and the source that states it. Updated daily.
 
-As of Nov 24, 2026: 9,123 dates across 531 providers, 612 for AI models, 83 for provider APIs and 8,428 for runtimes and other software.
+As of Nov 25, 2026: 9,133 dates across 531 providers, 613 for AI models, 83 for provider APIs and 8,437 for runtimes and other software.
 
 A model often retires on different dates on different platforms (the provider's own API, Azure, Amazon Bedrock, Google Vertex AI), so each platform's date is its own entry.
 
@@ -10,9 +10,6 @@ A model often retires on different dates on different platforms (the provider's 
 
 | Date | What | Replacement |
 | --- | --- | --- |
-| Nov 24, 2026 | [MAI-Image-2.5-Flash-2026-06-02 on Microsoft Foundry: retirement 2026-11-24](https://since.dev/calendar/microsoft/mai-image-2.5-flash-2026-06-02/azure) |  |
-| Nov 24, 2026 | [MAI-Image-2.5-Pro-2026-06-19 on Microsoft Foundry: retirement 2026-11-24](https://since.dev/calendar/microsoft/mai-image-2.5-pro-2026-06-19/azure) |  |
-| Nov 24, 2026 | [MAI-Image-2.5-2026-06-02 on Microsoft Foundry: retirement 2026-11-24](https://since.dev/calendar/microsoft/mai-image-2.5-2026-06-02/azure) |  |
 | Nov 26, 2026 | [ai21.jamba-1-5-mini-v1:0 on Amazon Bedrock: retirement 2026-11-26 in us-east-1](https://since.dev/calendar/ai21/ai21.jamba-1-5-mini-v1-0/bedrock) |  |
 | Nov 26, 2026 | [ai21.jamba-1-5-large-v1:0 on Amazon Bedrock: retirement 2026-11-26 in us-east-1](https://since.dev/calendar/ai21/ai21.jamba-1-5-large-v1-0/bedrock) |  |
 | Nov 30, 2026 | [Evals dashboard and API is removed on 2026-11-30](https://since.dev/calendar/openai/api.openai.com/evals-dashboard-and-api) |  |
@@ -40,6 +37,9 @@ A model often retires on different dates on different platforms (the provider's 
 | Dec 11, 2026 | [gpt-5-mini-2025-08-07 on OpenAI API: retirement 2026-12-11](https://since.dev/calendar/openai/gpt-5-mini-2025-08-07) | `gpt-6.1-terra` |
 | Dec 11, 2026 | [gpt-5-mini on OpenAI API: retirement 2026-12-11](https://since.dev/calendar/openai/gpt-5-mini) | `gpt-6.1-terra` |
 | Dec 11, 2026 | [gpt-5 on OpenAI API: retirement 2026-12-11](https://since.dev/calendar/openai/gpt-5) | `gpt-6.1-sol` |
+| Dec 11, 2026 | [o3-pro on OpenAI API: retirement 2026-12-11](https://since.dev/calendar/openai/o3-pro) | `gpt-6.1-sol (reasoning.mode: pro) in the Responses API` |
+| Dec 11, 2026 | [o3 on OpenAI API: retirement 2026-12-11](https://since.dev/calendar/openai/o3) | `gpt-6.1-sol` |
+| Dec 11, 2026 | [o3-2025-04-16 on OpenAI API: retirement 2026-12-11](https://since.dev/calendar/openai/o3-2025-04-16) | `gpt-6.1-sol` |
 
 The full list, with a page for every date: [since.dev/calendar](https://since.dev/calendar).
 
@@ -66,7 +66,7 @@ Each JSON file is an array with one entry per line.
 - For any public GitHub repository, a scan shows which of these dates its code hits: [since.dev/scan](https://since.dev/scan)
 
 ```sh
-curl -s https://raw.githubusercontent.com/Since-dev/retirements/main/data/models.json | jq '.[] | select(.provider == "openai" and .date >= "2026-11-24") | {modelId, date, replacement}'
+curl -s https://raw.githubusercontent.com/Since-dev/retirements/main/data/models.json | jq '.[] | select(.provider == "openai" and .date >= "2026-11-25") | {modelId, date, replacement}'
 ```
 
 ## License
