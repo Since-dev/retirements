@@ -2,7 +2,7 @@
 
 Every dated AI model retirement, provider API removal and runtime end of life that [Since.dev](https://since.dev) tracks, with the replacement where there is one and the source that states it. Updated daily.
 
-As of Nov 26, 2026: 9,143 dates across 532 providers, 613 for AI models, 85 for provider APIs and 8,445 for runtimes and other software.
+As of Nov 27, 2026: 9,151 dates across 533 providers, 614 for AI models, 85 for provider APIs and 8,452 for runtimes and other software.
 
 A model often retires on different dates on different platforms (the provider's own API, Azure, Amazon Bedrock, Google Vertex AI), so each platform's date is its own entry.
 
@@ -10,8 +10,6 @@ A model often retires on different dates on different platforms (the provider's 
 
 | Date | What | Replacement |
 | --- | --- | --- |
-| Nov 26, 2026 | [ai21.jamba-1-5-mini-v1:0 on Amazon Bedrock: retirement 2026-11-26 in us-east-1](https://since.dev/calendar/ai21/ai21.jamba-1-5-mini-v1-0/bedrock) |  |
-| Nov 26, 2026 | [ai21.jamba-1-5-large-v1:0 on Amazon Bedrock: retirement 2026-11-26 in us-east-1](https://since.dev/calendar/ai21/ai21.jamba-1-5-large-v1-0/bedrock) |  |
 | Nov 30, 2026 | [Evals dashboard and API is removed on 2026-11-30](https://since.dev/calendar/openai/api.openai.com/evals-dashboard-and-api) |  |
 | Nov 30, 2026 | [claude-sonnet-4-5 on Vertex AI: retirement no sooner than 2026-11-30](https://since.dev/calendar/anthropic/claude-sonnet-4-5/vertex) |  |
 | Nov 30, 2026 | [Agent Builder is removed on 2026-11-30](https://since.dev/calendar/openai/api.openai.com/agent-builder) | `Agents SDK or ChatGPT Workspace Agents` |
@@ -40,6 +38,8 @@ A model often retires on different dates on different platforms (the provider's 
 | Dec 11, 2026 | [o3-pro on OpenAI API: retirement 2026-12-11](https://since.dev/calendar/openai/o3-pro) | `gpt-6.1-sol (reasoning.mode: pro) in the Responses API` |
 | Dec 11, 2026 | [o3 on OpenAI API: retirement 2026-12-11](https://since.dev/calendar/openai/o3) | `gpt-6.1-sol` |
 | Dec 11, 2026 | [o3-2025-04-16 on OpenAI API: retirement 2026-12-11](https://since.dev/calendar/openai/o3-2025-04-16) | `gpt-6.1-sol` |
+| Dec 11, 2026 | [gpt-5-pro on OpenAI API: retirement 2026-12-11](https://since.dev/calendar/openai/gpt-5-pro) | `gpt-6.1-sol (reasoning.mode: pro) in the Responses API` |
+| Dec 11, 2026 | [o3-pro-2025-06-10 on OpenAI API: retirement 2026-12-11](https://since.dev/calendar/openai/o3-pro-2025-06-10) | `gpt-6.1-sol (reasoning.mode: pro) in the Responses API` |
 
 The full list, with a page for every date: [since.dev/calendar](https://since.dev/calendar).
 
@@ -66,7 +66,7 @@ Each JSON file is an array with one entry per line.
 - For any public GitHub repository, a scan shows which of these dates its code hits: [since.dev/scan](https://since.dev/scan)
 
 ```sh
-curl -s https://raw.githubusercontent.com/Since-dev/retirements/main/data/models.json | jq '.[] | select(.provider == "openai" and .date >= "2026-11-26") | {modelId, date, replacement}'
+curl -s https://raw.githubusercontent.com/Since-dev/retirements/main/data/models.json | jq '.[] | select(.provider == "openai" and .date >= "2026-11-27") | {modelId, date, replacement}'
 ```
 
 ## License
